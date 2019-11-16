@@ -1,0 +1,57 @@
+@import url('')
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	background-color: #eee;
+}
+
+.main {
+	background-color: #fff;
+	width: 95%;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3)
+}
+
+.item {
+	max-height: 265px;
+	max-width: 490px;
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(90vw - 10px);
+	background-color: #CECECE;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.img-1{
+	background-image: url('https://source.unsplash.com/1280x720/?elephant');
+}
+.img-2{
+	background-image: url('http://source.unsplash.com/1280x720/?cat');
+}
+.img-3{
+	background-image: url('http://source.unsplash.com/1280x720/?dog');
+}
+.img-3{
+	background-image: url('http://source.unsplash.com/1280x720/?cat');
+}
+.img-4{
+	background-image: url('http://source.unsplash.com/1280x720/?elephant');
+}
+.img-5{
+	background-image: url('http://source.unsplash.com/1280x720/?cat');
+}
+.img-6{
+	background-image: url('http://source.unsplash.com/1280x720/?dog');
+}
+.img-7{
+	background-image: url('http://source.unsplash.com/1280x720/?cat');
+}
